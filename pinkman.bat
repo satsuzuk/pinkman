@@ -1,5 +1,5 @@
 @echo off
-@title ‚Ò‚ñŒF‚ñ
+@title pinkman
 setlocal enabledelayedexpansion
 mode con:cols=45 lines=50
 set version=1
@@ -20,8 +20,8 @@ set hh=%time2:~0,2%
 set mn=%time2:~3,2%
 
 echo --------------------------------------------
-echo       ¿___¿
-echo     ipinkmanj     ver.%version%
+echo      âˆ©ï¼¿ï¼¿ï¼¿âˆ© 
+echo     (pinkman)    ver.%version%
 echo                     %yyyy%-%mm%-%dd% %hh%^:%mn%
 echo --------------------------------------------
 
