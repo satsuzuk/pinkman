@@ -20,7 +20,6 @@ set hh=%time2:~0,2%
 set mn=%time2:~3,2%
 
 echo --------------------------------------------
-echo      ∩＿＿＿∩ 
 echo     (pinkman)    ver.%version%
 echo                     %yyyy%-%mm%-%dd% %hh%^:%mn%
 echo --------------------------------------------
