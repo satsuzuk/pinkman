@@ -2,7 +2,7 @@
 
 @title pinkman
 setlocal enabledelayedexpansion
-mode con:cols=45 lines=50
+mode con:cols=45 lines=30
 set version=1
 
 type nul > log.txt
