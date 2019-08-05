@@ -1,4 +1,6 @@
 @echo off
+chcp 65001
+
 @title pinkman
 setlocal enabledelayedexpansion
 mode con:cols=45 lines=50
