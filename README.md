@@ -13,6 +13,8 @@ pinkman.confに
 pinkman.batをshift-jis/CRLFで保存します。
 
 pinkman.confとpinkman.batを同じディレクトリにおいてbatを起動すると上記の画面のようになります。
+pingが通れば緑。だめそうなら赤になります。
+赤かったら対象のホストにはpingが通っていないなーとおもってトラブルシュートしましょう。
 
 # ちゅうい
 
