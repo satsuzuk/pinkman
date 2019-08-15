@@ -14,12 +14,12 @@ pinkman.batをshift-jis/CRLFで保存します。
 
 pinkman.confとpinkman.batを同じディレクトリにおいてbatを起動すると上記の画面のようになります。
 
-#ちゅうい
+# ちゅうい
 
 IPv4しか動きません。
 
 # そのた
-Interop TokyoのShowNetで使われているdeadman/pingmanの機能をwindowsでダブルクリックで起動したかった感じです。
+このbatファイルは、Interop TokyoのShowNetで使われているdeadman/pingmanの機能をwindowsでダブルクリックで起動したかったのでいろんなところからコピペして作ってます。
 https://github.com/upa/deadman
 
 
