@@ -5,7 +5,7 @@ setlocal enabledelayedexpansion
 mode con:cols=45 lines=30
 set version=1
 
-type nul > log.txt
+type nul > fail_log.txt
 
 set red=[41m
 set green=[42m
