@@ -26,7 +26,7 @@ echo                     %yyyy%-%mm%-%dd% %hh%^:%mn%
 echo --------------------------------------------
 
 for /f "tokens=1,2" %%a in (pinkman.conf) do (
-	ping -4 -n 1 -w 2000 %%b |find "ms TTL=" >nul
+	ping -4 -n 1 -w 800 %%b |find "ms TTL=" >nul
 	if !errorlevel!==1 ( 
 		set pingresult= %red% x
 		echo %yyyy%-%mm%-%dd% %hh%^:%mn%	%%b	%%a	fail>>fail_log.txt
@@ -36,7 +36,7 @@ for /f "tokens=1,2" %%a in (pinkman.conf) do (
 	set result=!pingresult! %white%  %%a	%%b
 	echo !result!
 )
-timeout /t 2 >nul
+timeout /t 3 >nul
 
 cls
 goto pinkman
