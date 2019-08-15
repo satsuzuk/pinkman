@@ -19,4 +19,6 @@ pinkman.confとpinkman.batを同じディレクトリにおいてbatを起動す
 IPv4しか動きません。
 
 # そのた
-このbatファイルは、Interop TokyoのShowNetで使われているdeadman/pingmanの機能をwindowsでダブルクリックで起動したかったのでいろんなところからコピペして作ってます。
+このbatファイルは、Interop TokyoのShowNetで使われているdeadman/pingmanの機能をwindowsでダブルクリックで起動したかったので作ってみました。こんな適当なのじゃなくて、本物のdeadmanは↓こちらです。
+https://github.com/upa/deadman
+
