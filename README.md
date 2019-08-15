@@ -28,3 +28,7 @@ https://github.com/upa/deadman
 
 pinkなのはpingのタイポです。
 
+# ほんとはこうなったらいいな
+
+confファイルの中身を表示したまま、赤と緑だけがスクロールしたい。
+
