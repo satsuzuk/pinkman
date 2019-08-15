@@ -3,7 +3,6 @@
 @title pinkman
 setlocal enabledelayedexpansion
 mode con:cols=45 lines=30
-set version=1
 
 type nul > fail_log.txt
 
@@ -21,8 +20,7 @@ set hh=%time2:~0,2%
 set mn=%time2:~3,2%
 
 echo --------------------------------------------
-echo     (pinkman)       ver.%version%
-echo                     %yyyy%-%mm%-%dd% %hh%^:%mn%
+echo     (pinkman)      %yyyy%-%mm%-%dd% %hh%^:%mn%
 echo --------------------------------------------
 
 for /f "tokens=1,2" %%a in (pinkman.conf) do (
