@@ -20,5 +20,8 @@ IPv4しか動きません。
 
 # そのた
 このbatファイルは、Interop TokyoのShowNetで使われているdeadman/pingmanの機能をwindowsでダブルクリックで起動したかったので作ってみました。こんな適当なのじゃなくて、本物のdeadmanは↓こちらです。
+
 https://github.com/upa/deadman
+
+pinkなのはpingのタイポです。
 
